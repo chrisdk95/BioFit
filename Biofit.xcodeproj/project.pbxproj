@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C40B119BD84A56BB0AADA9 /* Pods_BiofitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FE733F68F09DDAC68EDE89 /* Pods_BiofitTests.framework */; };
+		3F1A1BCA2560D8B400B1929B /* ExerciseLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A1BC92560D8B400B1929B /* ExerciseLogViewController.swift */; };
+		3F1A1BCF2560DD0600B1929B /* ExerciseAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A1BCE2560DD0600B1929B /* ExerciseAddViewController.swift */; };
+		3F4DD1F0255BD6A5001B9CC3 /* BioBMiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4DD1EF255BD6A5001B9CC3 /* BioBMiViewController.swift */; };
+		3F6A20C82546D003008B9038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A20C72546D003008B9038 /* AppDelegate.swift */; };
+		3F6A20CA2546D003008B9038 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A20C92546D003008B9038 /* SceneDelegate.swift */; };
+		3F6A20CC2546D003008B9038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A20CB2546D003008B9038 /* ViewController.swift */; };
+		3F6A20CF2546D003008B9038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A20CD2546D003008B9038 /* Main.storyboard */; };
+		3F6A20D12546D00D008B9038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A20D02546D00D008B9038 /* Assets.xcassets */; };
+		3F6A20D42546D00D008B9038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A20D22546D00D008B9038 /* LaunchScreen.storyboard */; };
+		3F6A20DF2546D00D008B9038 /* BiofitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A20DE2546D00D008B9038 /* BiofitTests.swift */; };
+		3F6A20EA2546D00D008B9038 /* BiofitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A20E92546D00D008B9038 /* BiofitUITests.swift */; };
+		3F6A20FB2546D20F008B9038 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A20FA2546D20F008B9038 /* SignUpViewController.swift */; };
+		3F6A21002546D21D008B9038 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A20FF2546D21D008B9038 /* LoginViewController.swift */; };
+		3F6A210F25495D9F008B9038 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A210E25495D9E008B9038 /* GoogleService-Info.plist */; };
+		3F6A7A472578CC9200E6E830 /* BioTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A7A462578CC9100E6E830 /* BioTabViewController.swift */; };
+		3FBE8E4B254AB67C00C629EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBE8E4A254AB67C00C629EB /* Constants.swift */; };
+		3FF5548D25524F2E00E72834 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5548C25524F2E00E72834 /* TabBarViewController.swift */; };
+		422383C337AC2B65ADE1E279 /* Pods_Biofit_BiofitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3A98B6CE627341B7DF03E2 /* Pods_Biofit_BiofitUITests.framework */; };
+		50DB88C10C3D6D12B0925C39 /* Pods_Biofit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C591A7A32BC7C3D2AEBD2103 /* Pods_Biofit.framework */; };
+		C25608D8255F34CF007158B6 /* FirebaseUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25608D7255F34CF007158B6 /* FirebaseUser.swift */; };
+		C2761DBD255F786D00F2F8BE /* heartRateMonitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2761DBC255F786D00F2F8BE /* heartRateMonitorViewController.swift */; };
+		C28CCD74257864CC00D482DF /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28CCD73257864CC00D482DF /* SleepViewController.swift */; };
+		C28CCD79257864DF00D482DF /* SleepInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28CCD78257864DF00D482DF /* SleepInputViewController.swift */; };
+		C29B0DE2255E5CE100F088D1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29B0DE1255E5CE100F088D1 /* ProfileViewController.swift */; };
+		C2B2642625760F16009F48BD /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B2642525760F16009F48BD /* models.swift */; };
+		C2B2644A25762701009F48BD /* DietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B2644925762701009F48BD /* DietViewController.swift */; };
+		C2B2644F25762739009F48BD /* FoodTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B2644E25762739009F48BD /* FoodTableView.swift */; };
+		C2B2645425762763009F48BD /* AddFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B2645325762763009F48BD /* AddFoodViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F6A20DB2546D00D008B9038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6A20BC2546D003008B9038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6A20C32546D003008B9038;
+			remoteInfo = Biofit;
+		};
+		3F6A20E62546D00D008B9038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6A20BC2546D003008B9038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6A20C32546D003008B9038;
+			remoteInfo = Biofit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CE213DCB07756AA72E5EF26 /* Pods-Biofit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biofit.debug.xcconfig"; path = "Target Support Files/Pods-Biofit/Pods-Biofit.debug.xcconfig"; sourceTree = "<group>"; };
+		3F1A1BC92560D8B400B1929B /* ExerciseLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseLogViewController.swift; sourceTree = "<group>"; };
+		3F1A1BCE2560DD0600B1929B /* ExerciseAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseAddViewController.swift; sourceTree = "<group>"; };
+		3F4DD1EF255BD6A5001B9CC3 /* BioBMiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioBMiViewController.swift; sourceTree = "<group>"; };
+		3F6A20C42546D003008B9038 /* Biofit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Biofit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6A20C72546D003008B9038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F6A20C92546D003008B9038 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F6A20CB2546D003008B9038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F6A20CE2546D003008B9038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F6A20D02546D00D008B9038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F6A20D32546D00D008B9038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F6A20D52546D00D008B9038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6A20DA2546D00D008B9038 /* BiofitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiofitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6A20DE2546D00D008B9038 /* BiofitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiofitTests.swift; sourceTree = "<group>"; };
+		3F6A20E02546D00D008B9038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6A20E52546D00D008B9038 /* BiofitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiofitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6A20E92546D00D008B9038 /* BiofitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiofitUITests.swift; sourceTree = "<group>"; };
+		3F6A20EB2546D00D008B9038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6A20FA2546D20F008B9038 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3F6A20FF2546D21D008B9038 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3F6A210E25495D9E008B9038 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3F6A7A462578CC9100E6E830 /* BioTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioTabViewController.swift; sourceTree = "<group>"; };
+		3FBE8E4A254AB67C00C629EB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3FF5548C25524F2E00E72834 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		459DA15B02EACA8642A231CC /* Pods-Biofit-BiofitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biofit-BiofitUITests.release.xcconfig"; path = "Target Support Files/Pods-Biofit-BiofitUITests/Pods-Biofit-BiofitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		54FE733F68F09DDAC68EDE89 /* Pods_BiofitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiofitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3A98B6CE627341B7DF03E2 /* Pods_Biofit_BiofitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Biofit_BiofitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD68CAE2167D2DA2F96ECAB6 /* Pods-Biofit-BiofitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biofit-BiofitUITests.debug.xcconfig"; path = "Target Support Files/Pods-Biofit-BiofitUITests/Pods-Biofit-BiofitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C25608D7255F34CF007158B6 /* FirebaseUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUser.swift; sourceTree = "<group>"; };
+		C2761DBC255F786D00F2F8BE /* heartRateMonitorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = heartRateMonitorViewController.swift; sourceTree = "<group>"; };
+		C28CCD73257864CC00D482DF /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
+		C28CCD78257864DF00D482DF /* SleepInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepInputViewController.swift; sourceTree = "<group>"; };
+		C29B0DE1255E5CE100F088D1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C2B2642525760F16009F48BD /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+		C2B2644925762701009F48BD /* DietViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietViewController.swift; sourceTree = "<group>"; };
+		C2B2644E25762739009F48BD /* FoodTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableView.swift; sourceTree = "<group>"; };
+		C2B2645325762763009F48BD /* AddFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodViewController.swift; sourceTree = "<group>"; };
+		C591A7A32BC7C3D2AEBD2103 /* Pods_Biofit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Biofit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75690426476E6A53C58856C /* Pods-BiofitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiofitTests.debug.xcconfig"; path = "Target Support Files/Pods-BiofitTests/Pods-BiofitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA3F5DD7B5EA87E9CD92F0BB /* Pods-BiofitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiofitTests.release.xcconfig"; path = "Target Support Files/Pods-BiofitTests/Pods-BiofitTests.release.xcconfig"; sourceTree = "<group>"; };
+		EF635BE1E8270E45C93D6EFA /* Pods-Biofit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biofit.release.xcconfig"; path = "Target Support Files/Pods-Biofit/Pods-Biofit.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F6A20C12546D003008B9038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DB88C10C3D6D12B0925C39 /* Pods_Biofit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6A20D72546D00D008B9038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C40B119BD84A56BB0AADA9 /* Pods_BiofitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6A20E22546D00D008B9038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422383C337AC2B65ADE1E279 /* Pods_Biofit_BiofitUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F6A20BB2546D003008B9038 = {
+			isa = PBXGroup;
+			children = (
+				C2B2642525760F16009F48BD /* models.swift */,
+				C25608D7255F34CF007158B6 /* FirebaseUser.swift */,
+				3FBE8E4A254AB67C00C629EB /* Constants.swift */,
+				3F6A20C62546D003008B9038 /* Biofit */,
+				3F6A20DD2546D00D008B9038 /* BiofitTests */,
+				3F6A20E82546D00D008B9038 /* BiofitUITests */,
+				3F6A20C52546D003008B9038 /* Products */,
+				E9E24008BF2BDFAC7A7218F9 /* Pods */,
+				EE58CD1D173C7179EAE4F7F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F6A20C52546D003008B9038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F6A20C42546D003008B9038 /* Biofit.app */,
+				3F6A20DA2546D00D008B9038 /* BiofitTests.xctest */,
+				3F6A20E52546D00D008B9038 /* BiofitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F6A20C62546D003008B9038 /* Biofit */ = {
+			isa = PBXGroup;
+			children = (
+				3F6A20C72546D003008B9038 /* AppDelegate.swift */,
+				3F6A20C92546D003008B9038 /* SceneDelegate.swift */,
+				3F6A210A2546D254008B9038 /* View Controller */,
+				3F6A20CD2546D003008B9038 /* Main.storyboard */,
+				3F6A20D02546D00D008B9038 /* Assets.xcassets */,
+				3F6A20D22546D00D008B9038 /* LaunchScreen.storyboard */,
+				3F6A20D52546D00D008B9038 /* Info.plist */,
+				3F6A210E25495D9E008B9038 /* GoogleService-Info.plist */,
+			);
+			path = Biofit;
+			sourceTree = "<group>";
+		};
+		3F6A20DD2546D00D008B9038 /* BiofitTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6A20DE2546D00D008B9038 /* BiofitTests.swift */,
+				3F6A20E02546D00D008B9038 /* Info.plist */,
+			);
+			path = BiofitTests;
+			sourceTree = "<group>";
+		};
+		3F6A20E82546D00D008B9038 /* BiofitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6A20E92546D00D008B9038 /* BiofitUITests.swift */,
+				3F6A20EB2546D00D008B9038 /* Info.plist */,
+			);
+			path = BiofitUITests;
+			sourceTree = "<group>";
+		};
+		3F6A210A2546D254008B9038 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2761DBC255F786D00F2F8BE /* heartRateMonitorViewController.swift */,
+				3F6A20CB2546D003008B9038 /* ViewController.swift */,
+				3F6A20FA2546D20F008B9038 /* SignUpViewController.swift */,
+				3F6A20FF2546D21D008B9038 /* LoginViewController.swift */,
+				3FF5548C25524F2E00E72834 /* TabBarViewController.swift */,
+				3F4DD1EF255BD6A5001B9CC3 /* BioBMiViewController.swift */,
+				C29B0DE1255E5CE100F088D1 /* ProfileViewController.swift */,
+				3F1A1BC92560D8B400B1929B /* ExerciseLogViewController.swift */,
+				3F1A1BCE2560DD0600B1929B /* ExerciseAddViewController.swift */,
+				C2B2644925762701009F48BD /* DietViewController.swift */,
+				C2B2644E25762739009F48BD /* FoodTableView.swift */,
+				C2B2645325762763009F48BD /* AddFoodViewController.swift */,
+				C28CCD73257864CC00D482DF /* SleepViewController.swift */,
+				C28CCD78257864DF00D482DF /* SleepInputViewController.swift */,
+				3F6A7A462578CC9100E6E830 /* BioTabViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		E9E24008BF2BDFAC7A7218F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CE213DCB07756AA72E5EF26 /* Pods-Biofit.debug.xcconfig */,
+				EF635BE1E8270E45C93D6EFA /* Pods-Biofit.release.xcconfig */,
+				BD68CAE2167D2DA2F96ECAB6 /* Pods-Biofit-BiofitUITests.debug.xcconfig */,
+				459DA15B02EACA8642A231CC /* Pods-Biofit-BiofitUITests.release.xcconfig */,
+				C75690426476E6A53C58856C /* Pods-BiofitTests.debug.xcconfig */,
+				CA3F5DD7B5EA87E9CD92F0BB /* Pods-BiofitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE58CD1D173C7179EAE4F7F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C591A7A32BC7C3D2AEBD2103 /* Pods_Biofit.framework */,
+				7B3A98B6CE627341B7DF03E2 /* Pods_Biofit_BiofitUITests.framework */,
+				54FE733F68F09DDAC68EDE89 /* Pods_BiofitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F6A20C32546D003008B9038 /* Biofit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6A20EE2546D00D008B9038 /* Build configuration list for PBXNativeTarget "Biofit" */;
+			buildPhases = (
+				D939FE126B33BEE3FBEC2AD8 /* [CP] Check Pods Manifest.lock */,
+				3F6A20C02546D003008B9038 /* Sources */,
+				3F6A20C12546D003008B9038 /* Frameworks */,
+				3F6A20C22546D003008B9038 /* Resources */,
+				198DF29E7C7D462B1C36E07C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Biofit;
+			productName = Biofit;
+			productReference = 3F6A20C42546D003008B9038 /* Biofit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F6A20D92546D00D008B9038 /* BiofitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6A20F12546D00D008B9038 /* Build configuration list for PBXNativeTarget "BiofitTests" */;
+			buildPhases = (
+				0F72A55F2891DC7DC820BAD4 /* [CP] Check Pods Manifest.lock */,
+				3F6A20D62546D00D008B9038 /* Sources */,
+				3F6A20D72546D00D008B9038 /* Frameworks */,
+				3F6A20D82546D00D008B9038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6A20DC2546D00D008B9038 /* PBXTargetDependency */,
+			);
+			name = BiofitTests;
+			productName = BiofitTests;
+			productReference = 3F6A20DA2546D00D008B9038 /* BiofitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F6A20E42546D00D008B9038 /* BiofitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6A20F42546D00D008B9038 /* Build configuration list for PBXNativeTarget "BiofitUITests" */;
+			buildPhases = (
+				07C1C5FD32222B1BC54340EC /* [CP] Check Pods Manifest.lock */,
+				3F6A20E12546D00D008B9038 /* Sources */,
+				3F6A20E22546D00D008B9038 /* Frameworks */,
+				3F6A20E32546D00D008B9038 /* Resources */,
+				71E39A5B1CE47305544CAE69 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6A20E72546D00D008B9038 /* PBXTargetDependency */,
+			);
+			name = BiofitUITests;
+			productName = BiofitUITests;
+			productReference = 3F6A20E52546D00D008B9038 /* BiofitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F6A20BC2546D003008B9038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					3F6A20C32546D003008B9038 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					3F6A20D92546D00D008B9038 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 3F6A20C32546D003008B9038;
+					};
+					3F6A20E42546D00D008B9038 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 3F6A20C32546D003008B9038;
+					};
+				};
+			};
+			buildConfigurationList = 3F6A20BF2546D003008B9038 /* Build configuration list for PBXProject "Biofit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F6A20BB2546D003008B9038;
+			productRefGroup = 3F6A20C52546D003008B9038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F6A20C32546D003008B9038 /* Biofit */,
+				3F6A20D92546D00D008B9038 /* BiofitTests */,
+				3F6A20E42546D00D008B9038 /* BiofitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F6A20C22546D003008B9038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6A20D42546D00D008B9038 /* LaunchScreen.storyboard in Resources */,
+				3F6A210F25495D9F008B9038 /* GoogleService-Info.plist in Resources */,
+				3F6A20D12546D00D008B9038 /* Assets.xcassets in Resources */,
+				3F6A20CF2546D003008B9038 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6A20D82546D00D008B9038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6A20E32546D00D008B9038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07C1C5FD32222B1BC54340EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Biofit-BiofitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F72A55F2891DC7DC820BAD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiofitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		198DF29E7C7D462B1C36E07C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Biofit/Pods-Biofit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Biofit/Pods-Biofit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Biofit/Pods-Biofit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71E39A5B1CE47305544CAE69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Biofit-BiofitUITests/Pods-Biofit-BiofitUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Biofit-BiofitUITests/Pods-Biofit-BiofitUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Biofit-BiofitUITests/Pods-Biofit-BiofitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D939FE126B33BEE3FBEC2AD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Biofit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F6A20C02546D003008B9038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF5548D25524F2E00E72834 /* TabBarViewController.swift in Sources */,
+				3F6A20CC2546D003008B9038 /* ViewController.swift in Sources */,
+				C29B0DE2255E5CE100F088D1 /* ProfileViewController.swift in Sources */,
+				3F6A20C82546D003008B9038 /* AppDelegate.swift in Sources */,
+				3F4DD1F0255BD6A5001B9CC3 /* BioBMiViewController.swift in Sources */,
+				3F1A1BCF2560DD0600B1929B /* ExerciseAddViewController.swift in Sources */,
+				C28CCD79257864DF00D482DF /* SleepInputViewController.swift in Sources */,
+				C28CCD74257864CC00D482DF /* SleepViewController.swift in Sources */,
+				3F6A20FB2546D20F008B9038 /* SignUpViewController.swift in Sources */,
+				3F6A7A472578CC9200E6E830 /* BioTabViewController.swift in Sources */,
+				C2B2642625760F16009F48BD /* models.swift in Sources */,
+				C2761DBD255F786D00F2F8BE /* heartRateMonitorViewController.swift in Sources */,
+				C2B2644F25762739009F48BD /* FoodTableView.swift in Sources */,
+				3F1A1BCA2560D8B400B1929B /* ExerciseLogViewController.swift in Sources */,
+				3FBE8E4B254AB67C00C629EB /* Constants.swift in Sources */,
+				3F6A21002546D21D008B9038 /* LoginViewController.swift in Sources */,
+				3F6A20CA2546D003008B9038 /* SceneDelegate.swift in Sources */,
+				C2B2645425762763009F48BD /* AddFoodViewController.swift in Sources */,
+				C25608D8255F34CF007158B6 /* FirebaseUser.swift in Sources */,
+				C2B2644A25762701009F48BD /* DietViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6A20D62546D00D008B9038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6A20DF2546D00D008B9038 /* BiofitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6A20E12546D00D008B9038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6A20EA2546D00D008B9038 /* BiofitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F6A20DC2546D00D008B9038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6A20C32546D003008B9038 /* Biofit */;
+			targetProxy = 3F6A20DB2546D00D008B9038 /* PBXContainerItemProxy */;
+		};
+		3F6A20E72546D00D008B9038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6A20C32546D003008B9038 /* Biofit */;
+			targetProxy = 3F6A20E62546D00D008B9038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F6A20CD2546D003008B9038 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6A20CE2546D003008B9038 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F6A20D22546D00D008B9038 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6A20D32546D00D008B9038 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F6A20EC2546D00D008B9038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F6A20ED2546D00D008B9038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F6A20EF2546D00D008B9038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE213DCB07756AA72E5EF26 /* Pods-Biofit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WSZ66BVLSZ;
+				INFOPLIST_FILE = Biofit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OnielG.Biofit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F6A20F02546D00D008B9038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF635BE1E8270E45C93D6EFA /* Pods-Biofit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WSZ66BVLSZ;
+				INFOPLIST_FILE = Biofit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OnielG.Biofit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F6A20F22546D00D008B9038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75690426476E6A53C58856C /* Pods-BiofitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WSZ66BVLSZ;
+				INFOPLIST_FILE = BiofitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OnielG.BiofitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biofit.app/Biofit";
+			};
+			name = Debug;
+		};
+		3F6A20F32546D00D008B9038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA3F5DD7B5EA87E9CD92F0BB /* Pods-BiofitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WSZ66BVLSZ;
+				INFOPLIST_FILE = BiofitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OnielG.BiofitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biofit.app/Biofit";
+			};
+			name = Release;
+		};
+		3F6A20F52546D00D008B9038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD68CAE2167D2DA2F96ECAB6 /* Pods-Biofit-BiofitUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WSZ66BVLSZ;
+				INFOPLIST_FILE = BiofitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OnielG.BiofitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Biofit;
+			};
+			name = Debug;
+		};
+		3F6A20F62546D00D008B9038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459DA15B02EACA8642A231CC /* Pods-Biofit-BiofitUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WSZ66BVLSZ;
+				INFOPLIST_FILE = BiofitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OnielG.BiofitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Biofit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F6A20BF2546D003008B9038 /* Build configuration list for PBXProject "Biofit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6A20EC2546D00D008B9038 /* Debug */,
+				3F6A20ED2546D00D008B9038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6A20EE2546D00D008B9038 /* Build configuration list for PBXNativeTarget "Biofit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6A20EF2546D00D008B9038 /* Debug */,
+				3F6A20F02546D00D008B9038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6A20F12546D00D008B9038 /* Build configuration list for PBXNativeTarget "BiofitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6A20F22546D00D008B9038 /* Debug */,
+				3F6A20F32546D00D008B9038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6A20F42546D00D008B9038 /* Build configuration list for PBXNativeTarget "BiofitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6A20F52546D00D008B9038 /* Debug */,
+				3F6A20F62546D00D008B9038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F6A20BC2546D003008B9038 /* Project object */;
+}
