@@ -8,7 +8,7 @@ IOS diet and health app created by Manuel Gavino, Oniel Gutierrez, Paris Klein, 
  - Firebase
  
  ## What We Have Learned
- - How to properly work and communitcate in a team envirnoment.
+ - How to properly work and communicate in a team envirnoment.
  - How to develop an app for IOS
  - How to implement Firebase
  
